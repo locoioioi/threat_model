@@ -11,13 +11,13 @@
     "diagrams": [
       {
         "id": 1,
-        "title": "XSS injection diagram",
+        "title": "attack diagram",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.3.0",
         "cells": [],
-        "description": "XSS injection diagram"
+        "description": "attack diagram"
       }
     ],
     "diagramTop": 2,
