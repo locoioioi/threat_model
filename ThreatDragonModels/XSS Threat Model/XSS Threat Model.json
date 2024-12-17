@@ -18,6 +18,82 @@
         "version": "2.3.0",
         "cells": [
           {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "49ed0efa-c870-409c-bdea-17be67d27aed",
+            "zIndex": 0,
+            "source": {
+              "cell": "91836d6c-e5a4-44bf-b3e5-168a3af992a8",
+              "port": "2cf0202f-62c9-4d0f-b519-4b92ae3a0cb8"
+            },
+            "target": {
+              "x": 940,
+              "y": 340
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "d4e517bb-1862-4593-97a3-a4872b8067ee",
+            "zIndex": 0,
+            "source": {
+              "cell": "a719d945-6fb6-47f2-8037-f98862f54b6a",
+              "port": "60fcb0f9-df2c-4262-bc71-4e6f27829b7d"
+            },
+            "target": {
+              "x": 1160,
+              "y": 140
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "vertices": [
+              {
+                "x": 1130,
+                "y": 170
+              }
+            ]
+          },
+          {
             "position": {
               "x": 240,
               "y": 175
@@ -1089,11 +1165,11 @@
             },
             "vertices": [
               {
-                "x": 170,
+                "x": 150,
                 "y": 300
               },
               {
-                "x": 230,
+                "x": 260,
                 "y": 300
               }
             ]
@@ -1377,6 +1453,110 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "ecb630da-3d6c-4594-a04b-fa3cab6de244",
+            "source": {
+              "x": 150,
+              "y": 310
+            },
+            "target": {
+              "x": 160,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 150,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "2ca39bb8-6118-4098-a89a-b43d34dbdc9d",
+            "source": {
+              "x": 600,
+              "y": 70
+            },
+            "target": {
+              "cell": "dc5793bc-4c3b-4ccf-a230-9cae520d9023",
+              "port": "60fcb0f9-df2c-4262-bc71-4e6f27829b7d"
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 110
+              },
+              {
+                "x": 580,
+                "y": 140
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1064,
               "y": 205
@@ -1648,6 +1828,174 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 590,
+              "y": 20
+            },
+            "size": {
+              "width": 93.74999999999996,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Dos attack\n"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "a9499d6c-b9fa-47a4-98a3-75e4b2c6c092",
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Dos attack\n",
+              "hasOpenThreats": false
+            },
+            "zIndex": 14
+          },
+          {
+            "position": {
+              "x": 219.99999999999986,
+              "y": 390
+            },
+            "size": {
+              "width": 93.75000000000004,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Send malicious stored XSS request\n"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "9d24baca-d347-4282-96ad-01a2d50a7c47",
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Send malicious stored XSS request\n",
+              "hasOpenThreats": false
+            },
+            "zIndex": 15
+          },
+          {
+            "position": {
+              "x": 683.75,
+              "y": 33
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Reverse Shell attack though vulnerable API"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "8f47cf3d-7784-43ce-ae0c-3d71557e1eed",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Reverse Shell attack though vulnerable API",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 186,
+              "y": 405
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Send SQL injection request"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "1b004dcf-d569-435b-bf77-d2c16bacd5b8",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Send SQL injection request",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1020,
+              "y": 320
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Reverse Shell attack though vulnerable package"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "1b0eb193-a2a7-4046-aac6-f94caea8d6e1",
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Reverse Shell attack though vulnerable package",
+              "hasOpenThreats": false
+            },
+            "zIndex": 18
+          },
+          {
+            "position": {
+              "x": 1210,
+              "y": 80
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️Save stored XSS into database"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "53263489-fef7-435f-8d8d-7db3cb76a516",
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️Save stored XSS into database",
+              "hasOpenThreats": false
+            },
+            "zIndex": 19
+          },
+          {
+            "position": {
+              "x": 1154,
+              "y": 103
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "⚠️SQL injection"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "de0bf7d7-5803-403d-aade-b31244de88cd",
+            "data": {
+              "type": "tm.Text",
+              "name": "⚠️SQL injection",
+              "hasOpenThreats": false
+            },
+            "zIndex": 20
           }
         ],
         "description": "attack diagram"
