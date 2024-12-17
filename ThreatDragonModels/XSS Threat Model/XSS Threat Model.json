@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "266be331-604b-41a7-9543-e7415a24340a",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Web \nInterface",
@@ -157,6 +157,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -240,7 +241,6 @@
               ]
             },
             "id": "f9043811-592c-46cf-9ad6-769277a7649a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Users",
@@ -280,6 +280,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -375,8 +376,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -399,6 +399,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -494,8 +495,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -613,8 +614,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -637,6 +637,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -732,8 +733,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
@@ -759,6 +759,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -842,7 +843,6 @@
               ]
             },
             "id": "c0cab0c2-6dce-48c6-b3d7-eb182e18f904",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Database",
