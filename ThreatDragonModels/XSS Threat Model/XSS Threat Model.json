@@ -615,8 +615,8 @@
           },
           {
             "position": {
-              "x": 700,
-              "y": 410
+              "x": 712,
+              "y": 380
             },
             "size": {
               "width": 90,
@@ -1704,6 +1704,102 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request \ntransaction",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request \ntransaction"
+            ],
+            "id": "be896739-4ee8-4d4e-92f2-5aead9653721",
+            "source": {
+              "cell": "dc5793bc-4c3b-4ccf-a230-9cae520d9023"
+            },
+            "target": {
+              "cell": "7d7e1fca-9c65-4dcc-8ad9-e63cedb865b6"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response \ntransaction\nstatus ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Response \ntransaction\nstatus "
+            ],
+            "id": "81d4169a-711e-45ee-ac11-8f06a31ae23e",
+            "source": {
+              "cell": "7d7e1fca-9c65-4dcc-8ad9-e63cedb865b6"
+            },
+            "target": {
+              "cell": "dc5793bc-4c3b-4ccf-a230-9cae520d9023"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 380
+              }
+            ]
+          },
+          {
             "position": {
               "x": 964,
               "y": 190
@@ -1821,6 +1917,125 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 450,
+              "y": 430
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Third-party \npayment"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "60fcb0f9-df2c-4262-bc71-4e6f27829b7d"
+                },
+                {
+                  "group": "right",
+                  "id": "a41d4926-363c-42bd-80fc-92217c8e13ee"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2cf0202f-62c9-4d0f-b519-4b92ae3a0cb8"
+                },
+                {
+                  "group": "left",
+                  "id": "29d60c7b-1402-4d81-91c9-4801f9d3462e"
+                }
+              ]
+            },
+            "id": "7d7e1fca-9c65-4dcc-8ad9-e63cedb865b6",
+            "data": {
+              "type": "tm.Process",
+              "name": "Third-party \npayment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 12
           }
         ],
         "description": "attack diagram"
