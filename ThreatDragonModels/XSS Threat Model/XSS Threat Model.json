@@ -138,7 +138,7 @@
           },
           {
             "position": {
-              "x": 109,
+              "x": 99,
               "y": 205
             },
             "size": {
@@ -147,7 +147,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Users"
+                "text": "Malicious \nUsers"
               },
               "body": {
                 "stroke": "#333333",
@@ -243,7 +243,7 @@
             "id": "f9043811-592c-46cf-9ad6-769277a7649a",
             "data": {
               "type": "tm.Actor",
-              "name": "Users",
+              "name": "Malicious \nUsers",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -515,6 +515,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -610,8 +611,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 8
+            }
           },
           {
             "position": {
@@ -634,6 +634,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -729,8 +730,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 9
+            }
           },
           {
             "position": {
@@ -753,6 +753,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -848,8 +849,103 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
             },
-            "zIndex": 10
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send requests",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send requests"
+            ],
+            "id": "8fd8c4e9-99e1-4afd-8386-553902e08a1d",
+            "source": {
+              "cell": "f9043811-592c-46cf-9ad6-769277a7649a"
+            },
+            "target": {
+              "cell": "266be331-604b-41a7-9543-e7415a24340a"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send requests",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send requests"
+            ],
+            "id": "3a6f4c69-aec4-4cf3-b289-1c9368a018fc",
+            "source": {
+              "cell": "266be331-604b-41a7-9543-e7415a24340a"
+            },
+            "target": {
+              "cell": "dc5793bc-4c3b-4ccf-a230-9cae520d9023"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 280
+              }
+            ]
           },
           {
             "position": {
@@ -872,6 +968,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -967,8 +1064,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 11
+            }
           }
         ],
         "description": "attack diagram"
